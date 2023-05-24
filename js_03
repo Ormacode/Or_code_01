@@ -1,1 +1,18 @@
+//FB=Funcion B (callback)
+const fB=function(){
+  console.log("funcion B ejecutada.");
+};
 
+//fError = Funcion Error (callback)
+const fError = function(){
+  console.erro("Error");
+};
+//fA = Funcion A
+const fA = function(callback, callbackError){
+  const n = __(Match.random()*5);
+  if(n>2)callback();
+  else callbackError();
+};
+
+fA(fB, fError); 
+//Si ejecutamos.
