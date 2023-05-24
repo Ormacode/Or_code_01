@@ -1,1 +1,10 @@
+const a function(){
+  console.log(this);
+};
+const b=()=>{
+  console.log(this);
+};
+
+a(); //Windows
+b(); //Windows
 
