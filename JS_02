@@ -2,7 +2,7 @@ const fB=function(){
   console.log("Funcion B Ejecutada.");
 };
 
-const fA=function(callback9{
+const fA=function(callback{
   callback();
 };
 
