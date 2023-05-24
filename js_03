@@ -15,4 +15,4 @@ const fA = function(callback, callbackError){
 };
 
 fA(fB, fError); 
-//Si ejecutamos.
+//Si ejecutamos que pasa.
